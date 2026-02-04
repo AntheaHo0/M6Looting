@@ -326,8 +326,8 @@ metadata/_edit_lock_ = true
 [node name="Chest" parent="." instance=ExtResource("7_jj8kc")]
 position = Vector2(762, 312)
 
-[node name="Chest2" parent="." instance=ExtResource("7_jj8kc")]
-position = Vector2(579, 238)
+[node name="Chest 2" parent="." instance=ExtResource("7_jj8kc")]
+position = Vector2(578, 235)
 
-[node name="Chest3" parent="." instance=ExtResource("7_jj8kc")]
+[node name="Chest 3" parent="." instance=ExtResource("7_jj8kc")]
 position = Vector2(454, 321)
