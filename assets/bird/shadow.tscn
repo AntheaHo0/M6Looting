@@ -1,7 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://dnetm54guji21"]
+[gd_scene load_steps=8 format=3 uid="uid://bqdbhvjdnt6dr"]
 
-[ext_resource type="Shader" path="res://assets/bird/shadow.gdshader" id="1_n65kd"]
+[ext_resource type="Shader" uid="uid://d3s8mg37er32b" path="res://assets/bird/shadow.gdshader" id="1_n65kd"]
 [ext_resource type="Texture2D" uid="uid://b01mnp8qxfbh7" path="res://assets/small_circle.png" id="2_2mb0d"]
+[ext_resource type="Texture2D" uid="uid://bwhshkk62k3bh" path="res://assets/bird/sparrow.png" id="3_h7mg1"]
+[ext_resource type="Script" uid="uid://d36pyybqkqrcr" path="res://assets/bird/bird.gd" id="4_6vhxj"]
 
 [sub_resource type="Gradient" id="Gradient_1pcbm"]
 interpolation_mode = 1
@@ -20,3 +22,18 @@ show_behind_parent = true
 material = SubResource("ShaderMaterial_3o8dr")
 scale = Vector2(1.5625, 0.976562)
 texture = ExtResource("2_2mb0d")
+
+[node name="bird" type="Node2D" parent="."]
+position = Vector2(8.96, -17.408005)
+scale = Vector2(1, 0.9999999)
+script = ExtResource("4_6vhxj")
+
+[node name="Sparrow2" type="Sprite2D" parent="bird"]
+position = Vector2(-8.96, 17.408007)
+scale = Vector2(1, 0.9999999)
+texture = ExtResource("3_h7mg1")
+
+[node name="Sparrow" type="Sprite2D" parent="bird"]
+position = Vector2(-8.96, 17.408007)
+scale = Vector2(1, 1.0000001)
+texture = ExtResource("3_h7mg1")

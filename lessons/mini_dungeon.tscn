@@ -306,6 +306,9 @@ position = Vector2(672, 128)
 [node name="Torch2" parent="Background" instance=ExtResource("6_fokey")]
 position = Vector2(480, 128)
 
+[node name="Torch3" parent="Background" instance=ExtResource("6_fokey")]
+position = Vector2(574, 127)
+
 [node name="Camera2D" type="Camera2D" parent="Background"]
 position = Vector2(576, 235)
 rotation_smoothing_enabled = true
@@ -324,7 +327,7 @@ color = Color(0.977546, 0.842183, 0.960847, 1)
 metadata/_edit_lock_ = true
 
 [node name="Chest" parent="." instance=ExtResource("7_jj8kc")]
-position = Vector2(762, 312)
+position = Vector2(759, 328)
 
 [node name="Chest 2" parent="." instance=ExtResource("7_jj8kc")]
 position = Vector2(578, 235)
